@@ -1,0 +1,23 @@
+server:
+  port: 8001
+  
+spring:
+  mail:
+#    host: smtp.gmail.com
+    host: smtp.office365.com
+    port: 587
+    username: juanpapiro@hotmail.com
+#    username: juanpapiro@gmail.com
+    password: doremi120108
+#    password: stbzomsmtgpmncou
+    properties:
+      mail:
+        smpt.socketFactory.port: 587
+        smtp.socketFactory.fallback: false
+        smtp.auth: true
+        smtp.starttls-enable: true
+        smtp.starttls-required: true
+        smtp.ssl-enable: false
+        test-connection: true
+        
+        
